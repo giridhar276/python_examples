@@ -1,0 +1,4 @@
+Python is easy to learn.
+Python is powerful for automation.
+Files are useful for storing data.
+Practice makes programming easier.
