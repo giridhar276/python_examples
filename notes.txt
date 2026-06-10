@@ -1,0 +1,237 @@
+
+C datatypes 
+-----------------------
+int 
+float
+char
+double
+long
+short
+
+
+number 
+string
+list
+tuple
+dictionary
+set
+
+conditions 
+iterations
+
+python objects 
+-----------------
+
+number:
+-------
+number can be integer or decimal or octal or hexa.
+
+
+aval = 10
+bval = 343.43
+
+
+string 
+--------------
+string is defined in single or double or triple quotes.
+
+
+aname = 'python  programming'
+bname = "java programming"
+cname = """agentic ai """
+dname = '''gena ai programming'''
+
+
+list ( array in C) - mutable 
+--------------------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list is defined in [].
+
+
+
+alist = [50,40,20,50,2]
+blist = ["java","unix","oracle"]
+clist = = [34,6.4,"jva","unix",[40,50]]
+
+
+
+tuple  - immutable , unchangeable , uneditable
+------------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple is defined in ().
+**** Elements inside tuple cannot be modified directly ****
+
+
+atup = (45,3,45,32,5)
+
+
+
+dictionary (  json  hash    hashmap items     associativearray   )
+-------------------------------
+dictionary contains keys and values.
+key can be either number or string used to identify the value.
+value can be number or string or list or tuple or dictionary.
+
+syntax:  object = { key:value , key:value , key:value }
+example :  book = {"chap1":10 , "chap2":20 ,"chap3":30 }
+
+
+
+    book 
+    ------
+chap1   10
+chap2   20
+chap3   30
+chap4   40
+chap5   40
+
+
+
+set  ( venn diagrams in school maths)
+------
+set is UNORDERED collection of UNIQUE elements of SAME type.
+
+
+aset = {10,10,10,20,20,20,30}
+
+
+
+# conditions 
+
+simple if 
+if-else 
+if-elif-elif-elif-elif-elif-else
+
+
+# tuple 
+# dictionaary 
+# set
+# builtin functions 
+# user definitions
+# libraries - builtin libraries
+# libraries - third party libraries 
+
+
+requirment =         core programming    +     libraries   +    domain expertise
+
+
+objects
+methods 
+conditions
+iterations 
+
+
+
+function | definition | block | subroutine 
+--------------------------------------------
+
+There are 2 types of functions 
+
+1. builtin functions 
+2. user defined functions 
+
+
+1. online doc 
+2. offline doc
+
+How to check all the list of builtin functions ?
+-------------------------------------
+print(dir(__builtins__))
+
+
+ 
+2. user defined functions 
+--------------------------
+- reusability 
+- eliminate code duplication
+
+
+def display():
+    print("inside function")
+
+
+display()
+
+
+
+
+
+
+
+
+
+
+
+
+file handling 
+------------------
+csv
+xlsx 
+log 
+txt 
+pptx
+pdf 
+docx 
+zip 
+rar
+tar
+tar.gz 
+.sas
+png 
+jpg 
+gif
+mp3 
+mp4
+dat 
+
+flat files : txt  csv   log   json  xml txt     ---> we dont need any library 
+
+
+third party files :   pdf   xlsx   docx  pptx   zip   rar   mp4   jpg  gif 
+--> we need library to work with third party files 
+
+We can read each and every file format.
+
+
+working with flat files : ( data processing)
+------------------------
+
+read mode 
+write mode 
+append mode 
+
+
+opening the file 
+-----------------
+syntax:    object = open(filename,mode )
+
+if you want to read the file :     fobj = open("clients.txt","r")  # read mode 
+
+if you want to write to the file:  fobj= open("customers.txt","w") # write mode
+ # case1: if the file is nnot existing .. file will be created first 
+ # case2: if the file is already existing.. it overwrites the existing contents.. begins from 1st line 
+ 
+ 
+if you want to append           :   fa  - open("info,txt","a") # append mode   
+ # case1: if the file is not existing .. file will be created first 
+ # case2: if the file is already existing.. it appends the new content to the existing file
+ 
+
+
+closing the file 
+------------------
+object.close()
+
+
+
+
+
+
+
+
+
+
+
+
